@@ -1,0 +1,174 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta name="viewport" content="width=640,minimum-scale=0.5,maximum-scale=1.0,user-scalable=no, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="jquery.mCustomScrollbar.min.css" >
+    <link rel="stylesheet" href="cc.css"/>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="play.js"></script>
+    <script src="voice.js"></script>
+    <script src="lyric.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+<div class="red">
+<div class="hear">
+    <span class="music">QQ音乐</span>
+    <ul class="denglu">
+        <li>登陆</li>
+        <li>设置</li>
+    </ul>
+</div>
+
+<div class="body">
+    <div class="body_in">
+        <div class="body_left">
+            <div class="body_top">
+                <span><i><img src="img/ax.png" alt=""/></i>收藏</span>
+                <span><i><img src="img/tj.png" alt=""/></i>添加到</span>
+                <span><i><img src="img/xz.png" alt=""/></i>下载</span>
+                <span><i><img src="img/sc.png" alt=""/></i>删除</span>
+                <span><i><img src="img/qk.png" alt=""/></i>清空列表</span>
+            </div>
+            <div class="body_bottom">
+                <ul class="list" >
+                    <li class="list_con">
+                        <div class="list_check"><i></i></div>
+                        <div class="list_number3"></div>
+                        <div class="list_name">歌曲</div>
+                        <div class="list_singer">歌手</div>
+                        <div class="list_time">时长</div>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="body_right">
+            <div class="body_right_top">
+                <a href="javascript:" class="pic">
+                    <img src="" alt=""/>
+                </a>
+                <div class="song">
+                <div class="song_name">
+                    歌曲名:
+                    <a href="javascript:">龙卷风</a>
+                </div>
+                <div class="song_songer">
+                    歌手名:
+                    <a href="javascript:">G.E.M.邓紫棋</a>
+                </div>
+                <div class="song_list">
+                    专辑名:
+                    <a href="javascript:">龙卷风</a>
+                </div>
+                </div>
+
+            </div>
+
+            <div class="lyc">
+                <ul class="body_right_bottom">
+
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="body2">
+    <div class="lyc" id="lyc">
+        <ul class="body_right_bottom">
+        </ul>
+    </div>
+</div>
+
+<div class="foot">
+    <div class="foot_in">
+        <div class="foot_in_play">
+            <a href="javascript:"><img src="img/after.png" title="alt+←" class="after_music"/></a>
+            <a href="javascript:"><img src="img/play2.png" title="[空格]" class="foot_in_play2"/></a>
+            <a href="javascript:"><img src="img/next.png" title="alt+→"  class="next_music"/></a>
+        </div>
+        <div class="foot_in_time">
+                <div class="time-top">
+                    <span class="pro-name">龙卷风 - G.E.M. 邓紫棋</span>
+                    <span class="pro-time">00:02 / 04:08</span>
+                </div>
+            <div class="time_bottom">
+                <div class="music_qj">
+                    <div class="music_bj"></div>
+                    <div class="music_yuan"></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="foot_in_use">
+            <a href="javascript:"><img src="img/xh.png" title="列表循环[O]"/></a>
+            <a href="javascript:"><img src="img/ax.png" title="喜欢[V]"/></a>
+            <a href="javascript:"><img src="img/xz.png" title="下载[D]"/></a>
+            <a href="javascript:"><img src="img/pl.png" /></a>
+            <a href="javascript:" class="cj"><img src="img/cjg.png" title="打开纯净模式[C]"/></a>
+        </div>
+
+        <div class="foot_in-lound">
+            <a href="javascript:"><img src="img/lb.png" title="关闭声音[M]"/></a>
+            <div class="voice_qj">
+                <div class="voice_bj"></div>
+                <div class="voice_yuan"></div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="mask_bg"></div>
+    <div class="mask"></div>
+    </div>
+
+
+
+<div class="clears">
+<div class="clears_top">
+    QQ音乐
+    <span><img src="img/close.png" title="关闭"/></span>
+</div>
+    <div class="clears_bottom">
+        <span><img src="img/zy.png" alt=""/></span>
+        <span>确定要清空列表？</span>
+        <div class="sure">确定</div>
+        <div class="no_sure">取消</div>
+    </div>
+</div>
+<div class="handle">
+    <div class="handle_body">
+        <img src="img/zy2.png" alt=""/>
+        <span>请选择操作的单曲</span>
+    </div>
+</div>
+<div class="collect">
+    <div class="pic"><img src="img/succes.png" alt=""/></div>
+    <span>歌曲已收藏</span>
+</div>
+<div class="download">
+    <span><img src="img/close.png" title="关闭"/></span>
+</div>
+<div class="delete">
+    <div class="delete_top">
+        QQ音乐
+        <span><img src="img/close.png" title="关闭"/></span>
+    </div>
+    <div class="delete_bottom">
+        <span><img src="img/zy.png" alt=""/></span>
+        <span>确定要删除歌曲？</span>
+        <div class="sure">确定</div>
+        <div class="no_sure">取消</div>
+    </div>
+</div>
+<audio src="" id="a"></audio>
+</body>
+</html>

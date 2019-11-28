@@ -1,0 +1,667 @@
+ *{
+     margin: 0;
+     padding: 0;
+    -webkit-user-select:none;
+ }
+ html,body{
+
+ }
+
+.red{
+
+}
+.hear{
+    width: 100%;
+    height: 80px;
+}
+.music{
+    font-size: 40px;
+    margin-left: 20px;
+    line-height: 80px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.music:hover{
+    opacity: 1;
+}
+.denglu{
+    float: right;
+    list-style: none;
+    margin-right: 100px;
+}
+.denglu>li{
+    float: left;
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+    line-height: 80px;
+    text-align: center;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.denglu>li:hover{
+    opacity: 1;
+}
+.body{
+    width: 100%;
+    height: 700px;
+}
+.body_in{
+    width: 1600px;
+    height: 700px;
+    margin: 0 auto;
+}
+.body_in .body_left{
+    float: left;
+    width: 1100px;
+    height: 700px;
+}
+.body_in .body_right{
+    float: right;
+    width: 500px;
+    height: 700px;
+}
+ .body_right_top{
+     width: 500px;
+     height: 500px;
+     text-align: center;
+ }
+ .body_right_top .pic{
+     display: inline-block;
+     margin-top: 15px;
+     width: 290px;
+     height: 290px;
+     background:url("img/gd.png") no-repeat 5px 20px;
+     text-align: left;
+ }
+ .body_right_top .pic img{
+     width: 260px;
+     height: 253px;
+    margin-top: 20px;
+ }
+ .body2{
+     width: 100%;
+     height: 700px;
+    display: none;
+ }
+ .body2 #lyc{
+     height: 600px;
+     overflow: hidden;
+ }
+.body2 .body_right_bottom li{
+     font-size: 35px;
+     line-height: 100px;
+ }
+ .song{
+     margin-top: 20px;
+ }
+ .song div{
+     font-size:20px ;
+    color: rgba(255,255,255,0.5);
+     line-height: 40px;
+ }
+ .song a{
+     margin-left: 5px;
+     color: white;
+     text-decoration: none;
+     opacity: 0.5;
+ }
+ .song a:hover{
+     opacity: 1;
+ }
+ .lyc{
+     height:200px;
+     overflow: hidden;
+ }
+ .body_right_bottom li{
+     list-style: none;
+     text-align: center;
+     font-size: 20px;
+     color: rgba(255,255,255,0.5);
+     line-height: 40px;
+ }
+ .body_right_bottom .licolor{
+     color: green; !important;
+ }
+ .body_right_bottom .cur{
+     color: #31c27c;
+ }
+.body_left .body_top{
+    width: 1100px;
+    height: 55px;
+    font-size: 0px;
+    margin-top: 20px;
+}
+.body_top span{
+    display: inline-block;
+    width: 200px;
+    height: 55px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 55px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-left: 7px;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.body_top span:hover{
+    opacity: 1;
+}
+.body_top span:nth-child(1){
+    margin-left: 0px;
+}
+.body_top span i{
+    vertical-align: -3px;
+    margin-right: 10px;
+}
+ .body_top img{
+     width: 25px;
+     height: 25px;
+ }
+.body_left .body_bottom {
+    width: 1050px;
+    height: 615px;
+    margin-top: 10px;
+}
+
+.list{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+.list  div{
+    float: left;
+    line-height: 60px;
+    color: rgba(255,255,255,0.5);
+}
+.list li{
+    width: 1100px;
+    height: 60px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    box-sizing: border-box;
+}
+.list  .list_check{
+    width: 80px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+ .list  .list_number3{
+     width: 20px;
+     height: 100%;
+     margin-right: 10px;
+ }
+.list  .list_number{
+    width: 20px;
+    height: 100%;
+    text-align: right;
+    font-size: 16px;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+ .list  .list_number2{
+     color: transparent !important;
+     background: url("img/wave.gif") no-repeat center center;
+}
+.list  .list_name{
+    width: 50%;
+    height: 100%;
+}
+.list  .list_singer{
+    width: 20%;
+    height: 100%;
+}
+
+.list_time a img{
+    margin-top: -5px;
+    width: 50px;
+
+}
+.list_check i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(255,255,255,0.5);
+    box-sizing: border-box;
+    margin-top: 20px;
+    line-height: 20px;
+}
+ .list_check i:hover{
+     border: 1px solid rgba(255,255,255,1) !important;
+ }
+
+.list_name .list_pc{
+    float: right;
+    margin-right: 30px;
+    margin-top: 5px;
+    display: none;
+}
+.list_name .list_pc img{
+    width: 50px;
+    height: 50px;
+}
+.list_name .list_pc a{
+    margin-right: 5px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.list_name .list_pc a:hover{
+    opacity: 1;
+}
+.list_time img{
+    width: 40px;
+}
+.list_check .bg{
+    background: url("img/gou.png")no-repeat 2px 3px;
+}
+.list_time a{
+    display: inline-block;
+    margin-top: 10px;
+    float: left;
+    opacity: 0.5;
+    cursor: pointer;
+    display: none;
+}
+.list_time a:hover{
+    opacity: 1;
+}
+.foot{
+    width: 100%;
+    height: 120px;
+}
+.foot_in{
+    font-size: 0px;
+    width: 1600px;
+    height: 120px;
+    margin: 0 auto;
+}
+.foot_in_play{
+    display: inline-block;
+}
+.foot_in_play a{
+    position: relative;
+    left: 0;
+    top: 30px;
+    margin-right:38px;
+}
+ .foot_in_play a:nth-child(2){
+     vertical-align: -7px;
+ }
+
+ .foot_in_play a img{
+     opacity: 0.7;
+     width: 25px;
+     height: 25px;
+ }
+ .foot_in_play a:nth-child(2) img {
+     height: 40px;
+ }
+ .foot_in_play a img:hover{
+        opacity: 1;
+ }
+ .foot_in_time{
+     display: inline-block;
+     margin-right: 20px;
+     vertical-align:bottom;
+     width: 880px;
+     height: 60px;
+ }
+ .foot_in_time .time-top{
+     width: 100%;
+     height: 40px;
+ }
+ .foot_in_time .time-top span{
+     color: white;
+     font-size: 19px;
+     line-height: 40px;
+     opacity: 0.5;
+ }
+ .time_bottom{
+     width: 100%;
+     height: 20px;
+ }
+ .time_bottom .music_qj{
+     width: 880px;
+     height: 4px;
+     background: rgba(255,255,255,0.5);
+ }
+ .time_bottom .music_qj:hover{
+     cursor: pointer;
+ }
+ .music_qj .music_bj{
+     width: 0px;
+     height: 4px;
+     background: white;
+ }
+ .music_qj .music_yuan{
+     position: relative;
+     left: 0px;
+     top: -9px;
+     width: 14px;
+     height: 14px;
+     background-color: white;
+     border-radius: 50%;
+
+ }
+ .foot_in_time .time-top span:nth-child(1){
+     float: left;
+     cursor: pointer;
+   }
+ .time-top span:nth-child(1):hover{
+     opacity: 1;
+ }
+ .foot_in_time .time-top span:nth-child(2){
+     float: right;
+ }
+ .foot_in_use{
+     margin-right:1px;
+     display: inline-block;
+ }
+ .foot_in_use a{
+     position: relative;
+     left: 0;
+     top: 30px;
+     margin-right:20px;
+ }
+ .foot_in_use img{
+     opacity: 0.6;
+     width: 30px;
+     height: 30px;
+ }
+ .foot_in_use a:nth-child(4) img{
+     width: 40px;
+     height: 35px;
+ }
+ .foot_in_use a:nth-child(5) img{
+     width: 90px;
+     height: 35px;
+ }
+ .foot_in_use img:hover{
+     opacity: 1;
+ }
+ .cj img{
+     width: 75px;
+ }
+.foot_in-lound{
+    display: inline-block;
+    margin-left: 10px;
+    width: 180px;
+    height: 60px;
+}
+ .foot_in-lound a{
+     position: relative;
+     left: 0;
+     top: 27px;
+     opacity: 0.5;
+ }
+ .foot_in-lound a img{
+     width: 25px;
+     height: 25px;
+ }
+ .foot_in-lound a:hover{
+     opacity: 1;
+ }
+ .foot_in-lound .voice_qj{
+     position: relative;
+     left:33px;
+     top: 15px;
+     width: 120px;
+     height: 3px;
+     background: rgba(255,255,255,0.5);
+ }
+ .foot_in-lound .voice_qj:hover{
+     cursor: pointer;
+ }
+ .voice_qj .voice_bj{
+     width: 120px;
+     height: 3px;
+     background: white;
+ }
+ .voice_qj .voice_yuan{
+     position: relative;
+     left: 120px;
+     top: -9px;
+     width: 14px;
+     height: 14px;
+     background-color: white;
+     border-radius: 50%;
+
+ }
+
+ .mask_bg{
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     background: url("") no-repeat 0 0;
+     background-size: cover;
+     z-index: -2;
+     filter: blur(100px);
+ }
+ .mask{
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     z-index: -1;
+     background: rgba(0,0,0,0.35);
+ }
+ .clears{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: 700px;
+     height: 350px;
+     background-color: white;
+     z-index: 1;
+     display: none;
+ }
+.clears  .clears_top{
+    position: relative;
+    height: 70px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 70px;
+    color: darkgray;
+    border-bottom: darkgray 1px solid;
+ }
+ .clears_top span{
+     position: absolute;
+     right:15px;
+     top: 15px;
+     cursor: pointer;
+ }
+ .clears_top span img:hover{
+     background-image: url("img/close2.png");
+ }
+ .clears_bottom{
+     position: relative;
+     height: 280px;
+ }
+ .clears_bottom span:nth-child(1){
+     position: absolute;
+     left: 80px;
+     top:50px;
+ }
+ .clears_bottom span:nth-child(2){
+     position: absolute;
+     font-size: 20px;
+     left:165px;
+     top:65px;
+ }
+ .clears_bottom div{
+     position: absolute;
+     font-size:20px;
+     text-align: center;
+     line-height: 45px;
+     width: 130px;
+     height: 45px;
+     bottom: 45px;
+     border-radius: 3px;
+     cursor: pointer;
+ }
+ .clears_bottom .sure{
+     right: 200px;
+     color: white;
+     background-color: #31c27c;
+ }
+ .clears_bottom .no_sure{
+     box-sizing: border-box;
+     right: 50px;
+     border: darkgray 1px solid;
+ }
+
+ .clears_bottom .sure:hover{
+     background-color: forestgreen;
+ }
+ .clears_bottom .no_sure:hover{
+     background-color: #dcdcdc;
+ }
+ .handle{
+     position: absolute;
+     left:700px;
+     top: 285px;
+     width: 300px;
+     height: 200px;
+     background-color:#121212;
+     display: none;
+ }
+ .handle_body{
+     position: relative;
+ }
+ .handle_body img{
+     position: absolute;
+     left: 120px;
+     top: 50px;
+     width: 65px;
+ }
+ .handle_body span{
+     position: absolute;
+     left: 85px;
+     top: 135px;
+    color: white;
+ }
+ .collect{
+     position: absolute;
+     left:700px;
+     top: 285px;
+     border-radius: 5px;
+     width: 300px;
+     height: 200px;
+     background-color:#121212;
+     display: none;
+ }
+ .collect .pic{
+     padding-top: 0.1px;
+ }
+ .collect .pic img {
+     display: block;
+     width: 70px;
+     margin: 50px  auto 0 auto;
+ }
+ .collect span{
+     display: inline-block;
+     margin-top: 10px;
+     width: 300px;
+     text-align: center;
+     color: rgba(255,255,255,0.6)
+ }
+.download{
+    position: absolute;
+    left:600px;
+    top: 220px;
+    width: 600px;
+    height: 400px;
+    background: url("img/dowmload.png") no-repeat;
+    background-size: 100% 100%;
+    display: none;
+}
+ .download span{
+     position: absolute;
+     right: 20px;
+     top: 20px;
+     cursor: pointer;
+ }
+ .download span img:hover{
+     background-image: url("img/close2.png");
+ }
+
+ .delete{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     width: 700px;
+     height: 350px;
+     background-color: white;
+     z-index: 1;
+     display: none;
+ }
+ .delete  .delete_top{
+     position: relative;
+     height: 70px;
+     font-size: 30px;
+     text-align: center;
+     line-height: 70px;
+     color: darkgray;
+     border-bottom: darkgray 1px solid;
+ }
+ .delete_top span{
+     position: absolute;
+     right:15px;
+     top: 15px;
+     cursor: pointer;
+ }
+ .delete_top span img:hover{
+     background-image: url("img/close2.png");
+ }
+ .delete_bottom{
+     position: relative;
+     height: 280px;
+ }
+ .delete_bottom span:nth-child(1){
+     position: absolute;
+     left: 80px;
+     top:50px;
+ }
+ .delete_bottom span:nth-child(2){
+     position: absolute;
+     font-size: 20px;
+     left:165px;
+     top:65px;
+ }
+ .delete_bottom div{
+     position: absolute;
+     font-size:20px;
+     text-align: center;
+     line-height: 45px;
+     width: 130px;
+     height: 45px;
+     bottom: 45px;
+     border-radius: 3px;
+     cursor: pointer;
+ }
+ .delete_bottom .sure{
+     right: 200px;
+     color: white;
+     background-color: #31c27c;
+ }
+ .delete_bottom .no_sure{
+     box-sizing: border-box;
+     right: 50px;
+     border: darkgray 1px solid;
+ }
+
+ .delete_bottom .sure:hover{
+     background-color: forestgreen;
+ }
+ .delete_bottom .no_sure:hover{
+     background-color: #dcdcdc;
+ }
