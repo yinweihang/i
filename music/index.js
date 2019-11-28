@@ -561,7 +561,7 @@
             $.ajax({
                 url:"source/musiclist.json",
                 dataType:"json",
-                type:"post",
+                type:"get",
                 success:function(data){
                     player.musicList=data;
                     //将获取到的歌单信息添加到UL中
