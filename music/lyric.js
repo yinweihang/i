@@ -19,7 +19,7 @@
          $.ajax({
                 url:$this.path,
                 dataType:"text",
-                type:"post",
+                type:"get",
                 success:function(data){
                  $this.parseLyric(data);
                     callBack();
